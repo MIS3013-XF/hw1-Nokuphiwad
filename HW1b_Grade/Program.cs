@@ -21,7 +21,7 @@ namespace HW1b_Grade
             const double hw = 0.20;
             const double part = 0.15;
 
-            Console.WriteLine("What is you name");
+            Console.WriteLine("What is you name?");
             string Name = Console.ReadLine();
 
             Console.WriteLine("What is your last name?");
@@ -30,19 +30,19 @@ namespace HW1b_Grade
             Console.WriteLine("What is your student id?");
             string id = Console.ReadLine();
 
-            Console.WriteLine("What is your overalll percentage grade for homeworks?");
+            Console.WriteLine("What is your overal percentage grade for homeworks?");
             double homework = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("What is your overalll percentage grade for participations?");
+            Console.WriteLine("What is your overal percentage grade for participations?");
             double participation = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("What is your overalll percentage grade for exam 1?");
+            Console.WriteLine("What is your overal percentage grade for exam 1?");
             double exam1 = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("What is your overalll percentage grade for exam 2?");
+            Console.WriteLine("What is your overal percentage grade for exam 2?");
             double exam2 = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("What is your overalll percentage grade for exam 3?");
+            Console.WriteLine("What is your overal percentage grade for exam 3?");
             double exam3 = Convert.ToDouble(Console.ReadLine());
 
             double homeworktotal = hw * homework;

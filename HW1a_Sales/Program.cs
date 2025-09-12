@@ -18,13 +18,13 @@ namespace HW1a_Sales
             const double TAX_RATE = 0.085;
 
 
-            Console.WriteLine("What is the product name of the item you are purchasing");
+            Console.WriteLine("What is the product name of the item you are purchasing?");
             string productName = Console.ReadLine();
 
-            Console.WriteLine("How many" + productName + "s do you want to buy");
+            Console.WriteLine("How many " + productName + "s do you want to buy?");
             int quantity = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("What is the price for each" + productName + "?");
+            Console.WriteLine("What is the price for each " +  productName + "?");
             double price = Convert.ToDouble(Console.ReadLine());   
 
             double subtotal = quantity * price;
